@@ -31,26 +31,32 @@
 
 .notice-contents {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin: 20px;    
     font-size: 12px;
     font-weight: 600;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     background-color: var(--color);
 }
 
 
 .notice__date {
-    border-right: 1px solid rgba(0, 0, 0, 0.4);
-    padding: 0 20px;
-    padding-right: 30px;
+    text-align: center;
+    display: felx;
+    justify-content: center;
+    align-items: center;
 }
 
 .notice__num {
-    border-left: 1px solid rgba(0, 0, 0, 0.4);
-    padding: 0 20px;
-    padding-left: 30px;
+    display: felx;
+    justify-content: center;
+    align-items: center;
 }
 
+.notice__text {
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 0 10px;
+}
